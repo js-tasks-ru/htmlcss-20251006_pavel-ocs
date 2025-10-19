@@ -1,0 +1,18 @@
+.footer {
+    min-height: 384px;
+}
+
+.footer__wrapper {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.footer__title {
+    padding-top: 71px;
+    text-align: center;
+}
+
+.footer__text {
+    text-align: center;
+    margin-top: 32px;
+}
