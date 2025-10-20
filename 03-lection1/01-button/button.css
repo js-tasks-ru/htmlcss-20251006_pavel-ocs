@@ -3,7 +3,6 @@
 .container {
     max-width: 1200px;
     margin: 350px auto;
-    vertical-align: middle;
 }
 
 [disabled] {
@@ -25,11 +24,13 @@
 .button_primary {
     background-color: var(--primary);
     border: 1px solid var(--primary);
+    transition: background 200ms ease-in-out;
 }
 
 .button_secondary {
     background-color: var(--secondary);
     border: 1px solid var(--secondary);
+    transition: background 200ms ease-in-out;
 }
 
 .button_primary:hover {
