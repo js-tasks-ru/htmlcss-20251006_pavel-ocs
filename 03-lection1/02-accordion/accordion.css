@@ -1,16 +1,7 @@
 /* Стилизация аккордеона */
 
-p {
-    margin: 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 250px auto;
-}
-
+@import '../../assets/css/normalize.css';
 .accordion__item {
-    min-height: 72px;
     border: 1px solid #ACB5BD;
     border-radius: 8px;
     font: normal 400 16px "Inter";
@@ -23,24 +14,20 @@ p {
 }
 
 .accordion__summary {
-    font-family: Inter;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
     list-style-type: none;
-    padding-left: 32px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0 24px 32px;
 }
 
-.accordion__item[open]>summary {
+.accordion__item[open]>.accordion__summary {
     padding-bottom: 16px;
 }
 
 .accordion__text {
-    padding-left: 32px;
-    margin-bottom: 32px;
+    padding: 0 32px 32px;
 }
 
 .accordion__item:last-child {
