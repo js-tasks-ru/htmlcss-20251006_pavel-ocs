@@ -1,0 +1,54 @@
+.sceleton {
+    padding: 32px 40px 32px 24px;
+}
+
+.sceleton__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 515px;
+}
+
+.sceleton__line {
+    height: 20px;
+    background-color: #DDE2E5;
+}
+
+.sceleton__header {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.sceleton__avatar {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    background-color: #DDE2E5;
+}
+
+.sceleton__info {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.sceleton__title-short {
+    width: 33%;
+}
+
+.sceleton__title-medium {
+    width: 49%;
+}
+
+.sceleton__text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sceleton__text:first-child {
+    margin-top: 24px;
+}
