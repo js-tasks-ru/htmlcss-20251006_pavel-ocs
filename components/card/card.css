@@ -1,7 +1,26 @@
     .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         width: 350px;
         height: 367px;
         opacity: 1;
         border-radius: 12px;
-        background-color: aquamarine;
+        background-color: var(--white);
+    }
+    
+    .card__preview {
+        align-self: center;
+        width: 300px;
+        padding-top: 80px;
+    }
+    
+    .card__title {
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-bottom: 30px;
     }
