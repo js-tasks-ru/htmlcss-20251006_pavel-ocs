@@ -1,6 +1,5 @@
 /* Стилизация аккордеона */
 
-@import '../../assets/css/normalize.css';
 .accordion__item {
     border: 1px solid #ACB5BD;
     border-radius: 8px;
