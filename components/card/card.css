@@ -7,12 +7,12 @@
         opacity: 1;
         border-radius: 12px;
         background-color: var(--white);
+        padding: 80px 0 30px;
     }
     
     .card__preview {
         align-self: center;
         width: 300px;
-        padding-top: 80px;
     }
     
     .card__title {

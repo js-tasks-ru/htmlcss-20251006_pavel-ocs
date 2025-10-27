@@ -1,6 +1,5 @@
 .content {
     display: flex;
-    justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
     background-color: #F9FAFC;
