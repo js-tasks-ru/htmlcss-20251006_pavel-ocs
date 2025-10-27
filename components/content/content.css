@@ -1,0 +1,7 @@
+.content {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-color: #F9FAFC;
+    padding: 68px 165px 204px;
+}
