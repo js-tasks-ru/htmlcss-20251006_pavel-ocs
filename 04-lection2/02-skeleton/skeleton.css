@@ -1,12 +1,13 @@
 .sceleton {
     padding: 32px 40px 32px 24px;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
 }
 
 .sceleton__content {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 515px;
 }
 
 .sceleton__line {
@@ -31,15 +32,16 @@
     display: flex;
     flex-grow: 1;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
-    justify-content: space-around;
+    gap: 8px;
 }
 
-.sceleton__title-short {
+.sceleton__title_short {
     width: 33%;
 }
 
-.sceleton__title-medium {
+.sceleton__title_medium {
     width: 49%;
 }
 
@@ -47,8 +49,4 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-}
-
-.sceleton__text:first-child {
-    margin-top: 24px;
 }
