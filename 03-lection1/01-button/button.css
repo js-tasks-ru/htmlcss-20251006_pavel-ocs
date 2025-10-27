@@ -1,8 +1,8 @@
 /* Стилизация кнопки */
 
-@import '../../components/container/container.css';
-.button[disabled] {
+.button:disabled {
     pointer-events: none;
+    opacity: 0.5;
 }
 
 .button {
