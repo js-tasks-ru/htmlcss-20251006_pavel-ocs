@@ -1,5 +1,5 @@
 .footer {
-    min-height: 384px;
+    padding-top: 71px;
 }
 
 .footer__wrapper {
@@ -8,11 +8,8 @@
 }
 
 .footer__title {
-    padding-top: 71px;
     text-align: center;
+    padding-bottom: 32px;
 }
 
-.footer__text {
-    text-align: center;
-    margin-top: 32px;
-}
+.footer__text {}
