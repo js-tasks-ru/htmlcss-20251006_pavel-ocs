@@ -1,5 +1,6 @@
 .footer {
     padding-top: 71px;
+    padding-bottom: 32px;
 }
 
 .footer__wrapper {
@@ -9,7 +10,6 @@
 
 .footer__title {
     text-align: center;
-    padding-bottom: 32px;
 }
 
 .footer__text {}
