@@ -1,11 +1,8 @@
 .histogram {
-    /* height: 185px; */
-    /* width: 354px; */
     border: 1px solid #ACB5BD;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    gap: 6px;
     padding: 16px 24px 24px;
 }
 
@@ -21,6 +18,7 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
+    margin-bottom: 6px;
 }
 
 .histogram__counter {
@@ -29,14 +27,15 @@
     font-size: 20px;
     line-height: 26px;
     letter-spacing: 0%;
+    margin-bottom: 39px;
 }
 
 .histogram__preview {
-    flex-grow: 1;
+    height: 50px;
     display: flex;
     align-items: flex-end;
     height: 50px;
-    gap: 5px;
+    gap: 1px;
 }
 
 .histogram__column {
