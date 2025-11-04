@@ -18,15 +18,17 @@
     line-height: 24px;
     letter-spacing: 0%;
     list-style-type: none;
-    padding: 24px 0 24px 32px;
+    padding: 24px 32px;
 }
 
 .accordion__item[open]>.accordion__summary {
     padding-bottom: 16px;
 }
 
-.accordion__text {
-    padding: 0 32px 32px;
+.accordion__summary+.accordion__content {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
 }
 
 .accordion__item:last-child {
