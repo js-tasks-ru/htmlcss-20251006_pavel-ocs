@@ -4,6 +4,7 @@
 @import '../../components/header/header.css';
 @import '../../components/page/page.css';
 @import '../../components/wrapper/wrapper.css';
+@import '../fonts/fonts.css';
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -15,6 +16,10 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --purple-blue: #334D6E;
+    --grey-manatee: #90A0B7;
+    --light-purple: #A0B1F5;
+    --king-blue: #4263EB;
     --error: var(--red);
     --success: var(--blue);
     --primary: var(--blue);
