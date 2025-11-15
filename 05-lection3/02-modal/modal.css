@@ -17,7 +17,7 @@
 }
 
 .modal {
-    /* display: none; */
+    display: none;
 }
 
 .modal__shadow {
@@ -59,7 +59,7 @@
     letter-spacing: 0px;
     vertical-align: bottom;
     /*  */
-    color: #334D6E;
+    color: var(--fiolet-blue);
     margin-bottom: 14px;
 }
 
@@ -73,10 +73,10 @@
 
 .close__icon {
     position: absolute;
-    color: #334D6E;
     height: 16px;
     width: 16px;
     right: 12px;
     top: 12px;
     background-image: url('../../assets/images/x.png');
+    cursor: pointer;
 }
