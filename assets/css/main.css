@@ -4,6 +4,7 @@
 @import '../../components/header/header.css';
 @import '../../components/page/page.css';
 @import '../../components/wrapper/wrapper.css';
+@import '../../components/card/card.css';
 :root {
     --white: #ffffff;
     --black: #212429;
